@@ -1,0 +1,12 @@
+const Add=(a,b)=>(a+b);
+const Sub=(a,b)=>(a-b);
+const Mul=(a,b)=>(a*b);
+const Div=(a,b)=>(a/b);
+const calc=(a,b,operation)=>{
+       return operation(a,b)
+}
+
+console.log(calc(10,10,Add));
+console.log(calc(10,10,sub));
+console.log(calc(10,10,Mul));
+console.log(calc(10,10,Div));
