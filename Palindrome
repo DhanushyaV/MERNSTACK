@@ -1,0 +1,8 @@
+let str="madam";
+let pal=str.split(''); // convert string into an  an array
+pal.reverse();
+let ans=pal.join('');
+if(str==ans)
+  console.log(" This is a Palindrome");
+else
+  console.log("Not Palindrome");
