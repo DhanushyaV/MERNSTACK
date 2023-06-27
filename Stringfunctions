@@ -1,7 +1,8 @@
-let s="  Hello All   ";
+let s="  Hello SECE  ";
 console.log(s.trim());
 console.log(s.replace('l','z'));
 console.log(s.replaceAll('l','z'));
+
 
 let str3="sri eshwar college of engineering";
 console.log(str3.split(" "));
