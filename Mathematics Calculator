@@ -10,3 +10,4 @@ console.log(calc(10,10,Add));
 console.log(calc(10,10,sub));
 console.log(calc(10,10,Mul));
 console.log(calc(10,10,Div));
+
