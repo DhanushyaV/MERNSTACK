@@ -22,3 +22,8 @@ arrayy.unshift("abc");
 //5)length-> return the length of an array
 
 console.log(arrayy.length);
+
+//6)->splice(index,delete count)
+
+array.splice(2,1,101,102)
+console.log(arrayy);
